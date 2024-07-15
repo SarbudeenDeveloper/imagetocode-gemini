@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  text-align: center;
+}
+
+form button {
+  margin-left: 10px;
+}
+
+pre {
+  background: #f4f4f4;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+  overflow-x: auto;
+  white-space: pre-wrap; /* CSS */
+  white-space: -moz-pre-wrap; /* Mozilla */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* IE */
+}
